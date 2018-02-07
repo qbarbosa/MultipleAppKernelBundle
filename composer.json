@@ -2,7 +2,7 @@
     "name": "vbardales/multiple-app-kernel-bundle",
     "version": "1.0.0",
     "description": "Allow Symfony2 base to host multiple apps",
-    "keywords": ["multiple", "app", "symfony2"],
+    "keywords": ["multiple", "app", "symfony"],
     "type": "symfony-bundle",
     "homepage": "https://github.com/vbardales/MultipleAppKernelBundle",
     "authors": [
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": "2.*"
+        "symfony/symfony": ">=2"
     },
     "target-dir": "MultipleApp/KernelBundle",
     "autoload": {
